@@ -9,5 +9,5 @@ soma = num1 + num2
 
 if (soma > 10):
     print(f"A soma dos valores inseridos é {soma}")
-    
+
 print("FIM DO PROGRAMA")
