@@ -15,3 +15,15 @@ if maior < b:
 
 if maior < c:
     maior = c
+
+menor = a
+
+if menor > b:
+    menor = b
+
+if menor > c:
+    menor = c
+
+meio = a + b + c - maior - menor
+
+print(f"Os números em ordem crescente são: {menor}, {meio}, {maior}")
