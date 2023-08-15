@@ -4,8 +4,5 @@ a resposta está certa ou errada.
 '''
 
 cap = input("Qual a capital do Brasil?\n")
-
-if cap == "Brasília" or "brasília":
-    print("Certo")
-else:
-    print("Errado")
+val = ("Errado", "Certo")[cap == "Brasília" or "brasília"]
+print(val)
