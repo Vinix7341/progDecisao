@@ -7,7 +7,7 @@ num = int(input("Digite um número de 3 algarismos e lhe direi apenas o algarism
 
 cent = num / 100
 
-if num >= 100 and <1000
+if num >= 100 and num < 1000:
     print(f"A centena do seu número é {cent:.0f}")
 else:
     print("Seu número não possui três algarismos")
